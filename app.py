@@ -476,8 +476,7 @@ def dashboard():
         return redirect(url_for("login"))
 
     refresh_model_artifacts()
-    empty_history = []
-    empty_stats = build_dashboard_stats(empty_history)
+    empty_stats = build_dashboard_stats([])
     form_values = {
         "transaction_amount": "",
         "transaction_type": "",
