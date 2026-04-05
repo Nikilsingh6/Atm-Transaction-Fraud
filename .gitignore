@@ -1,0 +1,65 @@
+# ── Virtual environments ─────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Python bytecode ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── Distribution / packaging ──────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── SQLite database (contains user data) ─────────────────────────
+database.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Trained ML model files ────────────────────────────────────────
+models/*.joblib
+*.joblib
+
+# ── Jupyter / IPython ────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Test / coverage artefacts ────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ── IDE and editor files ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS generated files ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Environment variable files ───────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Static file build output (if added later) ────────────────────
+node_modules/
+
